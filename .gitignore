@@ -1,0 +1,33 @@
+# Large local data (do not commit)
+raw_data/
+aligned_data/
+sliced_data/
+
+# Audio
+*.wav
+*.flac
+*.mp3
+
+# Model artifacts
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.npz
+*.npy
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS junk
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
